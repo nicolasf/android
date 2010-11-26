@@ -226,6 +226,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/motorola/umts_sholes" name="nicolasf/android_vendor_motorola_umts_sholes" remote="github" />
-  <project path="vendor/cyanogen" name="nadlabak/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="nicolasf/android_vendor_cyanogen" remote="github" />
 
 </manifest>
