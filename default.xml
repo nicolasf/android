@@ -7,7 +7,7 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="nadlabak/android_build" remote="github">
+  <project path="build" name="nicolasf/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
