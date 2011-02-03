@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="nadlabak/android_build" remote="github">
+  <project path="build" name="nicolasf/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
@@ -45,7 +45,7 @@
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/motorola/umts_sholes" name="nadlabak/android_device_motorola_umts_sholes" remote="github" />
+  <project path="device/motorola/umts_sholes" name="nicolasf/android_device_motorola_umts_sholes" remote="github" />
   <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
@@ -144,7 +144,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
-  <project path="frameworks/base" name="nadlabak/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="nicolasf/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -224,9 +224,9 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
-  <project path="vendor/motorola/umts_sholes" name="nadlabak/android_vendor_motorola_umts_sholes" remote="github"/>
+  <project path="vendor/motorola/umts_sholes" name="nicolasf/android_vendor_motorola_umts_sholes" remote="github"/>
 
-  <project path="vendor/cyanogen" name="nadlabak/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="nicolasf/android_vendor_cyanogen" remote="github" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
@@ -235,6 +235,6 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
-  <project path="android" name="nadlabak/android" remote="github" />
+  <project path="android" name="nicolasf/android" remote="github" />
 
 </manifest>
